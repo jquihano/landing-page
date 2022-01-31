@@ -1,2 +1,2 @@
 # landing-page
-Sampel project for the Odin Project
+Sample project for the Odin Project
