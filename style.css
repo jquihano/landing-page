@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+.banner {
+    background-color: #1F2937;
+    width: 100%;
+    height: auto;
+}
+
+.nav-link > ul{
+    display: flex;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 200px;
+    top: 30px;
+}
+
+.links {
+    color: #E5E7EB;
+    justify-content: flex-end;
+    padding: 35px;
+    margin-right: 40px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 90px;
+    flex: 1 0 auto;
+}
+
+.hero-cta {
+    flex-direction: column;
+    text-align: left;
+    width: 310px;
+}
+
+.hero-image {
+    padding-left: 70px;
+    align-self: flex-end;
+}
+.meeting-img {
+    width: 550px;
+    height: 270px;
+}
