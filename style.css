@@ -62,10 +62,6 @@ h1 {
     height: 270px;
 }
 
-.hero-content {
-    flex-wrap: nowrap;
-}
-
 .other-text {
     color: #1F2937;
     font-size: 36px;
@@ -74,9 +70,8 @@ h1 {
     padding-top: 50px;
 }
 
-.quad-images {
+.hero-content {
     display: flex;
-    justify-content: space-evenly;
     margin: 20px 20%;
 }
 
@@ -85,4 +80,10 @@ h1 {
     height: 250px;
     overflow: hidden;
     padding: 60px;
+    border: 2px solid lightblue;
+    text-align: center;
+}
+
+span {
+    text-align: center;
 }
