@@ -72,7 +72,12 @@ h1 {
 
 .hero-content {
     display: flex;
-    margin: 20px 20%;
+    justify-content: center;
+}
+
+.hero-content > figure {
+    flex-basis: 12%;
+    padding: 60px;
 }
 
 .img {
@@ -85,5 +90,5 @@ h1 {
 }
 
 span {
-    text-align: center;
+    text-align: right;
 }
