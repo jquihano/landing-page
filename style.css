@@ -13,7 +13,8 @@
 .subtext {
     padding: 20px 0;
 }
-li {
+li, a {
+    color: #E5E7EB;
     text-decoration: none;
     list-style: none;
     padding: 10px;
