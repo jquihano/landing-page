@@ -10,6 +10,9 @@
     font-size: 18px;
 }
 
+.subtext {
+    padding: 20px 0;
+}
 li {
     text-decoration: none;
     list-style: none;
