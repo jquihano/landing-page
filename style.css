@@ -5,6 +5,11 @@
     font-family: Roboto;
 }
 
+.grey-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
 li {
     text-decoration: none;
     list-style: none;
@@ -42,7 +47,7 @@ h1 {
 .hero {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 90px;
     flex: 1 0 auto;
 }
@@ -50,15 +55,15 @@ h1 {
 .hero-cta {
     flex-direction: column;
     text-align: left;
-    width: 310px;
+    width: 390px;
 }
 
 .hero-image {
-    padding-left: 70px;
+    padding-left: 200px;
     align-self: flex-end;
 }
 .meeting-img {
-    width: 550px;
+    width: 650px;
     height: 270px;
 }
 
@@ -67,7 +72,7 @@ h1 {
     font-size: 36px;
     font-weight: 800;
     text-align: center;
-    padding-top: 50px;
+    padding: 50px 0;
 }
 
 .hero-content {
@@ -77,18 +82,45 @@ h1 {
 
 .hero-content > figure {
     flex-basis: 12%;
-    padding: 60px;
 }
 
 .img {
     max-width: 250px;
-    height: 250px;
+    height: 450px;
     overflow: hidden;
     padding: 60px;
     border: 2px solid lightblue;
-    text-align: center;
+    border-radius: 10%;
+    margin-left: 60px;
 }
 
-span {
-    text-align: right;
+.figure-text {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 80px;
+    margin: 10px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    width: 45%;
+    font-size: 36px;
+    padding-top: 25px;
+    font-style: italic;
+}
+
+.quote-credit {
+    font-size: 30px;
+    padding: 20px;
+    align-self: flex-end;
+    margin-right: 25%;
+    font-weight: 900;
 }
